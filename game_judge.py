@@ -67,7 +67,7 @@ class ControlSystem(object):
 
 class JudgeSystem(object):
     """裁判系统
-    用来检测敌机是否被摧毁、玩家战机是否坠毁
+    用来检测敌机是否被摧毁、玩家战机是否被击毁
     """
 
     def __init__(self, game_screen):
